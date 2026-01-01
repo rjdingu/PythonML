@@ -27,18 +27,15 @@ resultCount = countVowels(w)
 print(resultCount)
 
 
-# Print all unique Numbers of a list
+
+
 
 def uniqueNums(nums):
     for i in range(0,len(nums)-1):
         if i in nums and nums.count(i) >=2:
             nums.remove(i)    
     return nums
-
-l = [1,1,1,2,2,3,3,4]
+l= [1,1,1,2,2,3,3,4]
 uniqueList = uniqueNums(l)
 print(uniqueList)                
-
-rmDuplicate = uniqueNums(l)
-print(rmDuplicate)                
 
