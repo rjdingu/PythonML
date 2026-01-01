@@ -39,3 +39,6 @@ l = [1,1,1,2,2,3,3,4]
 uniqueList = uniqueNums(l)
 print(uniqueList)                
 
+rmDuplicate = uniqueNums(l)
+print(rmDuplicate)                
+

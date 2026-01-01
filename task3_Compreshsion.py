@@ -22,6 +22,11 @@ def onlya(l):
 onlya(l)
 
 
+
 # Print the 5*5 matrix
 matrix_5x5 = [[0 for j in range(5)] for i in range(5)]
 print(matrix_5x5)
+
+
+
+
